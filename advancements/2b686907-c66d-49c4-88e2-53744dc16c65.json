@@ -22,6 +22,7 @@
       "minecraft:frozen_ocean": "2025-07-16 15:34:35 +0545",
       "minecraft:frozen_river": "2025-07-15 17:53:33 +0545",
       "minecraft:sunflower_plains": "2025-07-16 15:42:20 +0545",
+      "minecraft:swamp": "2025-07-17 12:04:52 +0545",
       "minecraft:meadow": "2025-07-15 16:46:54 +0545",
       "minecraft:birch_forest": "2025-07-15 17:21:06 +0545",
       "minecraft:old_growth_spruce_taiga": "2025-07-15 17:52:56 +0545",
@@ -177,7 +178,11 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-07-16 15:51:01 +0545",
-      "baked_potato": "2025-07-15 17:04:52 +0545"
+      "suspicious_stew": "2025-07-17 12:00:23 +0545",
+      "cooked_mutton": "2025-07-17 12:20:19 +0545",
+      "baked_potato": "2025-07-15 17:04:52 +0545",
+      "golden_carrot": "2025-07-17 12:04:07 +0545",
+      "carrot": "2025-07-17 12:17:34 +0545"
     },
     "done": false
   },
@@ -195,12 +200,15 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-07-17 12:00:34 +0545",
       "minecraft:skeleton": "2025-07-15 17:30:38 +0545",
       "minecraft:piglin": "2025-07-16 15:48:12 +0545",
       "minecraft:zombified_piglin": "2025-07-15 17:33:12 +0545",
       "minecraft:enderman": "2025-07-15 18:05:09 +0545",
       "minecraft:piglin_brute": "2025-07-16 15:50:24 +0545",
+      "minecraft:spider": "2025-07-17 12:16:28 +0545",
       "minecraft:zombie": "2025-07-15 17:20:23 +0545",
+      "minecraft:creeper": "2025-07-17 12:18:05 +0545",
       "minecraft:ender_dragon": "2025-07-15 18:11:45 +0545",
       "minecraft:hoglin": "2025-07-16 15:49:11 +0545"
     },
@@ -1945,6 +1953,252 @@
   "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
       "has_netherite_upgrade_smithing_template": "2025-07-16 15:51:31 +0545"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-07-17 12:02:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-07-17 12:09:41 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-17 12:10:39 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-07-17 11:47:18 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-07-17 12:09:41 +0545"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-07-17 11:31:13 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-07-17 11:54:55 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-07-17 11:51:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-07-17 11:47:18 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-07-17 11:51:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-07-17 11:54:57 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-17 11:41:27 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-07-17 11:27:22 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-07-17 11:47:22 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-07-17 11:51:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-17 12:10:39 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-07-17 11:54:57 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-07-17 11:31:13 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-17 11:41:27 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-07-17 11:27:22 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-07-17 11:50:36 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-07-17 11:48:42 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-07-17 12:16:30 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-07-17 12:09:41 +0545"
     },
     "done": true
   },
