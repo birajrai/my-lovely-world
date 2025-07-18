@@ -19,10 +19,12 @@
       "minecraft:lush_caves": "2025-07-16 15:35:37 +0545",
       "minecraft:dripstone_caves": "2025-07-16 15:25:42 +0545",
       "minecraft:snowy_taiga": "2025-07-16 15:41:26 +0545",
+      "minecraft:deep_cold_ocean": "2025-07-18 15:08:09 +0545",
       "minecraft:frozen_ocean": "2025-07-16 15:34:35 +0545",
       "minecraft:frozen_river": "2025-07-15 17:53:33 +0545",
       "minecraft:sunflower_plains": "2025-07-16 15:42:20 +0545",
       "minecraft:swamp": "2025-07-17 12:04:52 +0545",
+      "minecraft:grove": "2025-07-18 15:03:29 +0545",
       "minecraft:meadow": "2025-07-15 16:46:54 +0545",
       "minecraft:birch_forest": "2025-07-15 17:21:06 +0545",
       "minecraft:old_growth_spruce_taiga": "2025-07-15 17:52:56 +0545",
@@ -202,16 +204,17 @@
     "criteria": {
       "minecraft:pillager": "2025-07-17 12:00:34 +0545",
       "minecraft:skeleton": "2025-07-15 17:30:38 +0545",
-      "minecraft:piglin": "2025-07-16 15:48:12 +0545",
       "minecraft:zombified_piglin": "2025-07-15 17:33:12 +0545",
+      "minecraft:witch": "2025-07-18 15:09:37 +0545",
+      "minecraft:ender_dragon": "2025-07-15 18:11:45 +0545",
+      "minecraft:hoglin": "2025-07-16 15:49:11 +0545",
+      "minecraft:piglin": "2025-07-16 15:48:12 +0545",
       "minecraft:enderman": "2025-07-15 18:05:09 +0545",
       "minecraft:piglin_brute": "2025-07-16 15:50:24 +0545",
       "minecraft:spider": "2025-07-17 12:16:28 +0545",
       "minecraft:zombie": "2025-07-15 17:20:23 +0545",
       "minecraft:creeper": "2025-07-17 12:18:05 +0545",
-      "minecraft:zombie_villager": "2025-07-17 15:11:06 +0545",
-      "minecraft:ender_dragon": "2025-07-15 18:11:45 +0545",
-      "minecraft:hoglin": "2025-07-16 15:49:11 +0545"
+      "minecraft:zombie_villager": "2025-07-17 15:11:06 +0545"
     },
     "done": false
   },
@@ -2497,6 +2500,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-17 15:24:24 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-07-17 15:24:24 +0545"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2025-07-17 15:26:06 +0545"
@@ -2515,15 +2530,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
     "criteria": {
-      "has_smooth_stone": "2025-07-17 15:24:24 +0545"
+      "has_amethyst_shard": "2025-07-18 15:10:04 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/tinted_glass": {
     "criteria": {
-      "has_smooth_stone": "2025-07-17 15:24:24 +0545"
+      "has_amethyst_shard": "2025-07-18 15:10:04 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-07-18 14:58:37 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-18 15:10:04 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-18 15:10:04 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-07-18 15:09:15 +0545"
     },
     "done": true
   },
