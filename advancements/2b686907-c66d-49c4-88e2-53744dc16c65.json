@@ -2594,15 +2594,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
+      "deflected_projectile": "2025-07-19 17:53:25 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_leggings": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
+      "has_bone_block": "2025-07-19 17:53:55 +0545"
     },
     "done": true
   },
@@ -2618,21 +2618,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/place_dried_ghast_in_water": {
-    "criteria": {
-      "place_dried_ghast_in_water": "2025-07-19 19:04:40 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/black_harness": {
     "criteria": {
       "has_dried_ghast": "2025-07-19 17:55:33 +0545"
-    },
-    "done": true
-  },
-  "minecraft:story/deflect_arrow": {
-    "criteria": {
-      "deflected_projectile": "2025-07-19 17:53:25 +0545"
     },
     "done": true
   },
@@ -2654,51 +2642,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2025-07-19 18:52:34 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2025-07-19 20:00:15 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/light_blue_harness": {
     "criteria": {
       "has_dried_ghast": "2025-07-19 17:55:33 +0545"
     },
     "done": true
   },
-  "minecraft:end/respawn_dragon": {
-    "criteria": {
-      "summoned_dragon": "2025-07-19 18:55:40 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/cyan_harness": {
     "criteria": {
       "has_dried_ghast": "2025-07-19 17:55:33 +0545"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2025-07-19 18:56:43 +0545"
     },
     "done": true
   },
@@ -2720,18 +2672,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2025-07-19 17:53:55 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/purple_harness": {
     "criteria": {
       "has_dried_ghast": "2025-07-19 17:55:33 +0545"
@@ -2741,18 +2681,6 @@
   "minecraft:recipes/combat/white_harness": {
     "criteria": {
       "has_dried_ghast": "2025-07-19 17:55:33 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/saddle": {
-    "criteria": {
-      "has_leather": "2025-07-19 20:03:46 +0545"
     },
     "done": true
   },
@@ -2768,15 +2696,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_ice": {
+  "minecraft:recipes/combat/light_gray_harness": {
     "criteria": {
-      "has_packed_ice": "2025-07-19 19:58:29 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2025-07-19 18:52:34 +0545"
+      "has_dried_ghast": "2025-07-19 17:55:33 +0545"
     },
     "done": true
   },
@@ -2786,15 +2708,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-07-19 18:52:34 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-07-19 18:52:34 +0545"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2025-07-19 18:55:40 +0545"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-07-19 18:56:43 +0545"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2025-07-19 19:04:40 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-07-19 19:58:29 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-07-19 20:00:15 +0545"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-07-19 20:00:15 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/combat/light_gray_harness": {
+  "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_dried_ghast": "2025-07-19 17:55:33 +0545"
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-07-19 20:03:46 +0545"
     },
     "done": true
   },
