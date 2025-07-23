@@ -8,27 +8,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-07-15 17:52:21 +0545",
-      "minecraft:flower_forest": "2025-07-16 15:42:22 +0545",
-      "minecraft:beach": "2025-07-15 17:52:20 +0545",
       "minecraft:old_growth_pine_taiga": "2025-07-15 17:52:53 +0545",
-      "minecraft:dark_forest": "2025-07-15 17:22:39 +0545",
       "minecraft:forest": "2025-07-15 16:51:21 +0545",
       "minecraft:taiga": "2025-07-15 17:23:18 +0545",
-      "minecraft:river": "2025-07-15 17:21:41 +0545",
-      "minecraft:snowy_plains": "2025-07-16 15:41:31 +0545",
       "minecraft:lush_caves": "2025-07-16 15:35:37 +0545",
-      "minecraft:dripstone_caves": "2025-07-16 15:25:42 +0545",
-      "minecraft:snowy_taiga": "2025-07-16 15:41:26 +0545",
       "minecraft:deep_cold_ocean": "2025-07-18 15:08:09 +0545",
       "minecraft:frozen_ocean": "2025-07-16 15:34:35 +0545",
       "minecraft:frozen_river": "2025-07-15 17:53:33 +0545",
+      "minecraft:deep_frozen_ocean": "2025-07-23 14:05:24 +0545",
+      "minecraft:ocean": "2025-07-23 14:17:43 +0545",
       "minecraft:sunflower_plains": "2025-07-16 15:42:20 +0545",
+      "minecraft:birch_forest": "2025-07-15 17:21:06 +0545",
+      "minecraft:windswept_hills": "2025-07-23 14:07:50 +0545",
+      "minecraft:old_growth_spruce_taiga": "2025-07-15 17:52:56 +0545",
+      "minecraft:snowy_beach": "2025-07-16 15:34:26 +0545",
+      "minecraft:windswept_savanna": "2025-07-23 14:17:45 +0545",
+      "minecraft:flower_forest": "2025-07-16 15:42:22 +0545",
+      "minecraft:beach": "2025-07-15 17:52:20 +0545",
+      "minecraft:dark_forest": "2025-07-15 17:22:39 +0545",
+      "minecraft:river": "2025-07-15 17:21:41 +0545",
+      "minecraft:snowy_plains": "2025-07-16 15:41:31 +0545",
+      "minecraft:dripstone_caves": "2025-07-16 15:25:42 +0545",
+      "minecraft:snowy_taiga": "2025-07-16 15:41:26 +0545",
       "minecraft:swamp": "2025-07-17 12:04:52 +0545",
       "minecraft:grove": "2025-07-18 15:03:29 +0545",
       "minecraft:meadow": "2025-07-15 16:46:54 +0545",
-      "minecraft:birch_forest": "2025-07-15 17:21:06 +0545",
-      "minecraft:old_growth_spruce_taiga": "2025-07-15 17:52:56 +0545",
-      "minecraft:snowy_beach": "2025-07-16 15:34:26 +0545",
       "minecraft:plains": "2025-07-15 16:50:20 +0545"
     },
     "done": false
@@ -186,6 +190,7 @@
       "cooked_mutton": "2025-07-17 12:20:19 +0545",
       "cooked_beef": "2025-07-22 18:06:10 +0545",
       "baked_potato": "2025-07-15 17:04:52 +0545",
+      "poisonous_potato": "2025-07-23 14:15:55 +0545",
       "golden_carrot": "2025-07-17 12:04:07 +0545",
       "carrot": "2025-07-17 12:17:34 +0545"
     },
@@ -216,10 +221,12 @@
       "minecraft:hoglin": "2025-07-16 15:49:11 +0545",
       "minecraft:piglin": "2025-07-16 15:48:12 +0545",
       "minecraft:enderman": "2025-07-15 18:05:09 +0545",
+      "minecraft:magma_cube": "2025-07-23 14:37:38 +0545",
       "minecraft:piglin_brute": "2025-07-16 15:50:24 +0545",
       "minecraft:spider": "2025-07-17 12:16:28 +0545",
       "minecraft:zombie": "2025-07-15 17:20:23 +0545",
       "minecraft:creeper": "2025-07-17 12:18:05 +0545",
+      "minecraft:drowned": "2025-07-23 14:11:45 +0545",
       "minecraft:zombie_villager": "2025-07-17 15:11:06 +0545"
     },
     "done": false
@@ -3436,6 +3443,384 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-07-23 11:58:35 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-07-23 14:00:07 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-07-23 13:55:51 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-07-23 14:09:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-07-23 14:09:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_light_gray_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_light_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-07-23 14:06:53 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-07-23 14:09:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-07-23 14:16:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/light_gray_bundle": {
+    "criteria": {
+      "has_light_gray_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_light_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2025-07-23 14:00:07 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_gray_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2025-07-23 13:56:15 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-07-23 14:51:37 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-07-23 13:55:43 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-07-23 14:16:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-07-23 13:55:51 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-07-23 14:16:13 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-07-23 13:56:17 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2025-07-23 14:00:07 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-07-23 14:00:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-07-23 13:55:45 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-07-23 14:51:37 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2025-07-23 14:00:07 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2025-07-23 14:15:51 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-07-23 14:51:01 +0545"
     },
     "done": true
   },
