@@ -3269,9 +3269,21 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "tamed_animal": "2025-07-23 09:40:20 +0545"
+      "has_cod": "2025-07-23 09:38:36 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-07-23 09:38:36 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-07-23 09:38:36 +0545"
     },
     "done": true
   },
@@ -3281,29 +3293,31 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
-      "has_planks": "2025-07-23 09:47:09 +0545"
+      "has_salmon": "2025-07-23 09:38:37 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+  "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
-      "has_prismarine_brick": "2025-07-23 09:50:39 +0545"
+      "has_salmon": "2025-07-23 09:38:37 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "has_cod": "2025-07-23 09:38:36 +0545"
+      "tamed_animal": "2025-07-23 09:40:20 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "has_bone_meal": "2025-07-23 09:54:27 +0545"
+      "minecraft:calico": "2025-07-23 09:42:56 +0545",
+      "minecraft:siamese": "2025-07-23 09:41:47 +0545",
+      "minecraft:black": "2025-07-23 09:40:20 +0545"
     },
-    "done": true
+    "done": false
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
@@ -3311,9 +3325,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+  "minecraft:husbandry/breed_an_animal": {
     "criteria": {
-      "has_salmon": "2025-07-23 09:38:37 +0545"
+      "bred": "2025-07-23 09:42:05 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-07-23 09:47:09 +0545"
     },
     "done": true
   },
@@ -3329,45 +3349,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2025-07-23 09:38:37 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-23 09:47:09 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_planks": {
-    "criteria": {
-      "has_logs": "2025-07-23 10:04:44 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
-    "criteria": {
-      "has_prismarine_bricks": "2025-07-23 09:50:39 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-07-23 09:47:09 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2025-07-23 09:38:36 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_prismarine_brick": "2025-07-23 09:50:39 +0545"
     },
     "done": true
   },
@@ -3383,21 +3373,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2025-07-23 09:38:36 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-07-23 09:47:09 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
-    "criteria": {
-      "has_prismarine_bricks": "2025-07-23 09:50:39 +0545"
     },
     "done": true
   },
@@ -3407,9 +3385,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
     "criteria": {
-      "bred": "2025-07-23 09:42:05 +0545"
+      "has_prismarine_brick": "2025-07-23 09:50:39 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-07-23 09:50:39 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-07-23 09:50:39 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-07-23 09:50:39 +0545"
     },
     "done": true
   },
@@ -3419,17 +3415,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/complete_catalogue": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "minecraft:calico": "2025-07-23 09:42:56 +0545",
-      "minecraft:siamese": "2025-07-23 09:41:47 +0545",
-      "minecraft:black": "2025-07-23 09:40:20 +0545"
+      "has_bone_meal": "2025-07-23 09:54:27 +0545"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-07-23 09:54:27 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-07-23 10:04:44 +0545"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-07-23 11:58:35 +0545"
     },
     "done": true
   },
